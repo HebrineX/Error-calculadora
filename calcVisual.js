@@ -1,7 +1,7 @@
 const calc = require("./CalcObj");
 let accion = process.argv[2]; //Capturar la entrada por terminal   node app.js crear "cocinar"
-let num1 = process.argv[3];
-let num2 = process.argv[4];
+let num1 = parseInt(process.argv[3]);
+let num2 = parseInt(process.argv[4]);
 
 switch (accion){
     case "sumar":
